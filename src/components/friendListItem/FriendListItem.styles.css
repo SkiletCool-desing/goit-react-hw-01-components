@@ -1,0 +1,33 @@
+.friend-list-item {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 20px;
+  width: 150px;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  background-color: gainsboro;
+}
+.friends-avatar {
+  width: 48px;
+  margin-left: 5px;
+}
+.friends-name {
+  margin-left: 15px;
+}
+.online {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.ofline {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+}
